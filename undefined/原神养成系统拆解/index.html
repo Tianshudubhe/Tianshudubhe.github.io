@@ -1,0 +1,202 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>原神养成系统拆解 | 枢枢</title><meta name="keywords" content="博客，枢枢"><meta name="author" content="Bowen He"><meta name="copyright" content="Bowen He"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="原神养成系统拆解原神作为一款二次元开放世界ARPG游戏，核心玩法即在探索中养成角色，整个养成系统贯穿游戏始末，是游戏可玩点和盈利点重要部分，下来就原神的角色养成系统做一个简单分析  角色养成系统可以分为5个维度，这5个维度可以给角色带来不同程度上数值或机制的提升 1.角色升级及突破系统 角色的升级和突破是最为基础的养成维度，角色升级需要用到大量经验书，经验书根据可获得经验值分为三个等级，经验书的获">
+<meta property="og:type" content="article">
+<meta property="og:title" content="原神养成系统拆解">
+<meta property="og:url" content="https://tianshudubhe.github.io/undefined/%E5%8E%9F%E7%A5%9E%E5%85%BB%E6%88%90%E7%B3%BB%E7%BB%9F%E6%8B%86%E8%A7%A3/index.html">
+<meta property="og:site_name" content="枢枢">
+<meta property="og:description" content="原神养成系统拆解原神作为一款二次元开放世界ARPG游戏，核心玩法即在探索中养成角色，整个养成系统贯穿游戏始末，是游戏可玩点和盈利点重要部分，下来就原神的角色养成系统做一个简单分析  角色养成系统可以分为5个维度，这5个维度可以给角色带来不同程度上数值或机制的提升 1.角色升级及突破系统 角色的升级和突破是最为基础的养成维度，角色升级需要用到大量经验书，经验书根据可获得经验值分为三个等级，经验书的获">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://tianshudubhe.github.io/img/%E9%9B%B7%E7%94%B5%E5%B0%86%E5%86%9B.jpg">
+<meta property="article:published_time" content="2022-08-14T14:00:00.000Z">
+<meta property="article:modified_time" content="2022-08-14T18:42:58.939Z">
+<meta property="article:author" content="Bowen He">
+<meta property="article:tag" content="博客，枢枢">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://tianshudubhe.github.io/img/%E9%9B%B7%E7%94%B5%E5%B0%86%E5%86%9B.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://tianshudubhe.github.io/undefined/%E5%8E%9F%E7%A5%9E%E5%85%BB%E6%88%90%E7%B3%BB%E7%BB%9F%E6%8B%86%E8%A7%A3/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: true,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '原神养成系统拆解',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-08-15 04:42:58'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.2.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/./img/%E7%8E%89%E5%AD%90.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 链接</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></li><li><a class="site-page child" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/img/%E9%9B%B7%E7%94%B5%E5%B0%86%E5%86%9B.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">枢枢</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 链接</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></li><li><a class="site-page child" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></li></ul></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">原神养成系统拆解</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-08-14T14:00:00.000Z" title="发表于 2022-08-15 00:00:00">2022-08-15</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-08-14T18:42:58.939Z" title="更新于 2022-08-15 04:42:58">2022-08-15</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="原神养成系统拆解"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="原神养成系统拆解"><a href="#原神养成系统拆解" class="headerlink" title="原神养成系统拆解"></a>原神养成系统拆解</h1><p>原神作为一款二次元开放世界ARPG游戏，核心玩法即在探索中养成角色，整个养成系统贯穿游戏始末，是游戏<strong>可玩点和盈利点</strong>重要部分，下来就原神的角色养成系统做一个简单分析</p>
+<p><img src="/img/1/%E8%A7%92%E8%89%B2%E5%85%BB%E6%88%90%E7%B3%BB%E7%BB%9F%E5%88%86%E6%9E%90.png"></p>
+<p>角色养成系统可以分为5个维度，这5个维度可以给角色带来不同程度上数值或机制的提升</p>
+<h2 id="1-角色升级及突破系统"><a href="#1-角色升级及突破系统" class="headerlink" title="1.角色升级及突破系统"></a>1.角色升级及突破系统</h2><p><img src="/img/1/%E8%A7%92%E8%89%B2%E5%8D%87%E7%BA%A7%E5%8F%8A%E7%AA%81%E7%A0%B4.png"></p>
+<p>角色的升级和突破是最为基础的养成维度，角色升级需要用到大量经验书，经验书根据可获得经验值分为三个等级，经验书的获取途径有多种，主要途径有完成各式任务、地脉衍出·藏金之花（野外对战，消耗体力获取奖励）和开启宝箱等，角色升级到20级后需要突破后才能继续升级，达到40级后的每10级都需要一次突破才能继续之后的升级，共6个突破等级，角色的上限等级为90级。</p>
+<p>每次突破都需要此角色对应元素的元素石（来自世界Boss&#x2F;完成任务奖励&#x2F;关卡）、Boss素材（来自世界Boss）、地区特产（来自世界收集）、小怪素材（来自野外对战掉落）和大量的摩拉（游戏内金币），同时角色的突破也收到冒险等级（玩家游戏等级）的限制，玩家等级不够时角色无法突破。</p>
+<p><img src="/img/1/%E5%87%8C%E5%8D%8E.png"></p>
+<p>角色升级会为角色提供基础属性（生命值，防御力，攻击力）的增强，上图显示突破则是会额外的提供其他属性（如暴击率、暴击伤害、元素精通等）的增长</p>
+<p>下图为角色六次突破所需材料的成长折线。其中小怪素材和元素石均可以用三个次级材料合成高级材料，此处均换算为最低级材料的数量。</p>
+<p><img src="/img/1/%E8%A7%92%E8%89%B2%E7%AA%81%E7%A0%B4.png"></p>
+<p>Boss素材获取途径单一且需要耗费体力但同时也会获取一定的元素石。小怪素材受爆率影响较大且需玩家在大世界中频繁跑图寻怪，一般来说所需要的积累时间最长<br>地区特产是唯一不受掉落率影响的素材，也是相对最容易收集的，它与Boss素材一样前后期突破所需数量增长平稳。</p>
+<p>而小怪素材和元素石的需求量在角色50级后的突破中大幅提高，这意味着玩家在游戏前期需要对资源有一定的分配，因为仅一个角色获得全突破所需要的材料，需要几天甚至数十天的积累，若玩家冒险等级不高从而单次获得奖励的数量少的情况下则需要更久的时间，所以对于玩家来说优先将自己的冒险等级提高加快奖励获取的收益更高，这也是为什么角色突破会有冒险等级的限制，<strong>以引导玩家优先提升冒险等级以获得更多的单次掉落奖励</strong>，这点对于武器的突破和角色天赋升级也是一样的道理</p>
+<p><strong>设计目的：限制了玩家的角色养成速度，保证日活。推动玩家获取更加完整的游戏体验。</strong></p>
+<p>优点：无论是在开放世界的探索方面还是通过各式任务、活动获取大量经验书，皆可鼓励玩家推动游戏进程。<br>即使是玩家有了一定的游戏进度，养成资源通常也不会溢出，在玩家需要去练一个角色时始终是可以感受到养成的乐趣</p>
+<p>缺点：但相对的部分角色的养成材料会有<strong>重合</strong>，当玩家同时在养成此类角色时需反复获取，会造成一定的负反馈，可通过允许使用浓缩树脂（可一次获得双倍奖励的道具）或添加随机双倍产出奖励来缓解。除此之外，新手玩家的地图是随着主线剧情的推动来扩大的，部分角色突破所需要的地区特产可能在游戏前期无法获得，<em>我认为可以在前期地图设置一个特定的NPC，需要后期地图产物时可以提前找他置换，当然也需要添加一定的限制条件如置换物、置换数量等以防止资源过剩</em></p>
+<h2 id="2-角色天赋系统"><a href="#2-角色天赋系统" class="headerlink" title="2.角色天赋系统"></a>2.角色天赋系统</h2><p>天赋升级即提升角色的技能等级，相较于角色本身的升级和突破，角色的天赋升级所带来的提升并没有那么直观，但是其实此系统<strong>需要分配大量的资源且能让角色能力大幅提升</strong>，是角色养成不可或缺的一环</p>
+<p><img src="/img/1/%E5%A4%A9%E8%B5%8B%E7%B3%BB%E7%BB%9F.png"></p>
+<p>固有被动天赋初始时只有一个，会在角色突破等级达到1和4后再解锁剩下两个，固有天赋<strong>不可以</strong>进行升级<br>对天赋的升级是提高技能&#x2F;普通攻击对基础属性的利用率，天赋每次升级都提高了技能倍率和固定数值，升级上限为10级，利用命之座系统可以将主动技能天赋等级上限提升至15级，实际上限为13级。天赋升级受角色等级的限制，角色突破等级不足时无法升级天赋</p>
+<p><img src="/img/1/%E5%A4%A9%E8%B5%8B1.png"></p>
+<p><img src="/img/1/%E5%A4%A9%E8%B5%8B2.png"></p>
+<p>升级需要特定的天赋培养素材和一定的小怪掉落资源，天赋培养素材分为教导&#x2F;指引&#x2F;哲学三个等级，主要从指定的精通秘境中获得，值得注意的是此类副本每周只有固定的三天开放，不同角色所需要的天赋培养素材不尽相同，这就意味着玩家需要在所需素材的特定副本开放时间内多次通关刷取，这是角色养成极重要的一环。在天赋升级后期（6-10）需要特定的征讨领域的世界Boss材料而9-10的升级阶段还额外需要一个稀有度极高的智识之冕，一般情况下只有通过活动或地区收集奖励才能获取。</p>
+<p>下图展示了天赋培养所需要的常规材料数量，依旧是把所有的高级材料数量换算成低级材料数来展示。在前两次升级时，考虑到新手玩家对于大世界探索的具有较高的热情，小怪掉落的素材数略微高过天赋培养材料。而对角色的中期培养，则是使两种素材的数量同步增长并且多出了一个征讨领域Boss掉落材料，在后期天赋培养材料的需求大幅增长，一是为了限制单个角色的养成速度，二是相对小怪掉落资源，天赋培养材料获取的方式更加简单，只需要反复的通关流程较短的副本即可。</p>
+<p>征讨领域与其他副本不同的是，通关后需要60点体力才能够获取奖励且每周只能获取一次奖励（世界Boss 40，常规副本20），因考虑到部分玩家需同时培养多个角色的问题，每周的前三个征讨领域通关可用30点体力来获取奖励</p>
+<p><img src="/img/1/%E5%A4%A9%E8%B5%8B%E5%9F%B9%E5%85%BB.png"></p>
+<p><strong>设计目的：拉长养成线，保证玩家周活、日活</strong></p>
+<p>优点：<br>丰富游戏玩法，极大延长了角色的养成线。一个玩家共有三个天赋可以升级，而将一个天赋从1级升至10级需要耗费大量资源，所有的天赋培养材料在周日时都会开放，而玩家一天所能获取的树脂（体力）是有上限的，如需深度养成一个角色那么也就需要玩家利用另外两天的副本开放时间</p>
+<p>缺点：<br>游戏前期击败征讨领域世界Boss难度较大而奖励较少，且没有明确材料对应的角色及作用，可能导致新手玩家对于此类培养并不重视。可以增强引导，并且在挑战Boss时可以给予前期玩家试用其他角色的机会，一是降低副本难度，二是增加玩家对于其他角色的了解和喜爱。</p>
+<p>另一点关于天赋培养材料的产出，整个副本的流程较短，而在角色养成中后期玩家对于素材数量需求较大，因此需反复通关副本获取奖励，会使玩家产生一定的疲惫和枯燥感，武器材料和圣遗物副本也有相同的痛点。<em>我认为比较好的解决方案是赋予此类关卡Roguelike模式，玩家在进关卡前可以先选择通关后想获得的奖励物品，延长整个副本的流程并适当上调单次可获得的产物，保证系统的产出比</em></p>
+<h2 id="3-角色命之座系统"><a href="#3-角色命之座系统" class="headerlink" title="3.角色命之座系统"></a>3.角色命之座系统</h2><p><img src="/img/1/%E5%91%BD%E5%BA%A7.png"></p>
+<p>命之座系统共有0-6七个层级，简单来说非首次获得的角色可以获得一个该角色的命星，单个角色最多可以获得6个，点亮层级需从低到高，使用命星点亮命之座可以让角色获得机制或属性上的大幅提升，它是玩家追求角色更高练度不可或缺的一点也是提高营收的主要手段之一，不论是五星还是四星，高命座对应着更高的角色丰富性和可玩性</p>
+<p>命之座的第3，5层固定为提升主动技能天赋等级，大多数角色的命之座在第3层都是使其元素爆发的天赋等级提高3级，第5层则是使其元素战技的天赋等级提高3级，少数角色正好相反</p>
+<p>第6层命之座点亮后往往会带来角色机制上的提升，四星角色比较容易抽到，<strong>而限定五星角色想要满命的期望是8177RMB</strong>，这是原神对于大R的重要盈利点，可以制造大R与普通玩家的游戏体验差距</p>
+<p><img src="/img/1/%E5%91%BD%E5%BA%A72.png"></p>
+<p><strong>设计目的：提高营收，制造体验差别</strong></p>
+<p>优点：<br>原神作为一款有抽卡系统的游戏，当玩家想要展现自己对于一个角色的喜爱程度时，自然是深度养成角色，那么命之座也将被尽可能的点满以制造更多的体验，而卡池的时间是固定的，若想多次获取此角色就需要提前攒取大量原石或氪金</p>
+<p>缺点：<br>命之座与开放世界游戏内容的交互性不高，<em>可以在某角色被点亮所有命之座时，给予玩家一个可以额外体验的内容或奖励，类似于流程较短的传说任务或邀约任务</em></p>
+<h2 id="4-角色武器系统"><a href="#4-角色武器系统" class="headerlink" title="4.角色武器系统"></a>4.角色武器系统</h2><p>武器系统是含有养成元素的游戏中较常见的一项，玩家往往都会追求外观更好看或效果更适合角色的武器</p>
+<p><img src="/img/1/%E6%AD%A6%E5%99%A8%E7%B3%BB%E7%BB%9F.png"></p>
+<p>原神中的武器种类共有五种，分别是弓、单手剑、双手剑、长柄武器和法器，稀有度有1星到5星五个等级，其中5星武器只有通过祈愿（抽卡）才能获取，4星武器的获取方式有祈愿、任务奖励、利用图纸和材料进行锻造以及尘辉兑换四种途径，祈愿最低可获3星武器，1-3星武器都可以在地图探索中获取</p>
+<p><img src="/img/1/%E6%AD%A6%E5%99%A8%E8%8E%B7%E5%8F%96.png"></p>
+<p>武器同样具有类似于角色的升级和突破系统，在此过程不断提升武器的属性，所有武器的主词条均为提供攻击力，副词条则具有多种类型，玩家可以根据武器和角色的适配度来选择多种玩法的战斗</p>
+<p><img src="/img/1/%E6%AD%A6%E5%99%A8%E5%B1%9E%E6%80%A7.png"></p>
+<p>武器也有自己独特的精炼系统，简单来说就是将两个相同的武器就可以提升武器的精炼等阶，从而使武器在效果上得到数值提升。这一点也是制造玩家间养成差异化的重点之一，重氪玩家在武器精炼上也会有更深度的追求，<strong>限定满精武器的数学期望是6788RMB</strong>。普通玩家也可以使用高价的4星武器来作为5星的平替，但这往往要花费更多的时间在游戏内收集素材锻造或是在卡池中抽取，<strong>这样一来就很好的达成了营收和活跃的同步增长</strong></p>
+<p>此外，4星武器和5星武器在养成模型上有略微差别，5星武器相较4星武器突破需要更多资源，各阶段近似或等于4星武器的1.5倍，以下图表为4星和5星武器突破所需要的换算材料数</p>
+<p><img src="/img/1/4%E6%98%9F%E6%AD%A6%E5%99%A8.png"></p>
+<p><img src="/img/1/5%E6%98%9F%E6%AD%A6%E5%99%A8.png"></p>
+<p>从上图可以发现不论是4星还是5星，炼武秘境素材和小怪素材在各个突破阶段的需求数量都是相等的，实际上他们的获取方式相较于精英怪素材更加简单，炼武秘境素材主要集中在反复通关指定秘境，小怪素材在各对应地图分布密集，而精英怪往往在大世界分布较散，需要玩家有目的性的去寻找</p>
+<p><strong>总结：</strong><br>可以看见武器在第4次突破后所需要的材料将会大幅提升，此时观察角色升级、天赋会发现角色在达到70级后的养成需要耗费的资源数较之前也有着爆发提升，因此可以判断，角色、武器在70级后的养成属于后期，天赋在7级后的养成属于后期，对于玩家来说，因为前期角色培养消耗的资源少所以会累积一些资源，但是却受限于冒险等级的限制，因此玩家往往会加大对主线任务或一些世界任务的推进以达到继续培养角色的目的。</p>
+<p><strong>设计目的：提高营收，拉长养成线，丰富游戏玩法</strong></p>
+<h2 id="5-圣遗物系统"><a href="#5-圣遗物系统" class="headerlink" title="5.圣遗物系统"></a>5.圣遗物系统</h2><p>圣遗物系统是原神养成系统的核心，由于圣遗物的强化随机性较大且选择较多，所以对于角色练度要求更高的玩家需要耗费的资源更多，本节主要分析圣遗物在升级方面所要消耗的资源</p>
+<p><img src="/img/1/%E5%9C%A3%E9%81%97%E7%89%A9%E7%B3%BB%E7%BB%9F.png"></p>
+<p>圣遗物共有1-5星五种稀有度，每种星级所对应的等级上限为4&#x2F;8&#x2F;12&#x2F;16&#x2F;20。圣遗物类型有生之花、死之羽、时之沙、空之杯、理之冠五种，他们都可以给角色带来面板上的提升，获取圣遗物的方式主要有祝圣秘境副本、世界Boss、任务和活动奖励等，其中最主要的来源是祝圣秘境副本。</p>
+<p>圣遗物的升级需要其他圣遗物或是祝圣素材，同时也需要大量的摩拉，圣遗物所需要的经验和摩拉是相等的关系，下图展示了圣遗物每一级提升所需要的经验值和摩拉数量，可以明显的看见12级之后，强化圣遗物所需要的资源大幅度上升，一是为了限制玩家圣遗物养成的速度，二是为玩家提供一定的保障，如若玩家圣遗物的前几次强化中没有得到想要的效果加成，玩家就可以果断丢弃，保证良好的游戏体验</p>
+<p><img src="/img/1/%E5%9C%A3%E9%81%97%E7%89%A9%E5%8D%87%E7%BA%A7.png"></p>
+<p>3、4、5星圣遗物可以提供的经验值分别是1260、2520、3780，单分析一个5星圣遗物升到满级，不仅需要27万摩拉，<strong>还需要108个4星圣遗物或72个5星圣遗物来培养</strong></p>
+<p>以角色等级53级为例，利用浓缩树脂单次通关秘境最多可获得3个5星圣遗物，<strong>6个4星圣遗物，8个3星圣遗物，</strong>可提供总经验约为<strong>36540</strong>，需要通关<strong>至少8次</strong>才可以强化满一个5星圣遗物，所要耗费的体力是320，对于一个普通玩家来说即是两天的时间，而一个角色需要5个圣遗物，在加上圣遗物获取以及强化的极大的不确定性，想要在圣遗物上深度养成一个角色的难度可见一斑</p>
+<p><strong>设计目的：极大的拔高单个角色的养成上限，保证玩家的游戏在线时长</strong></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://tianshudubhe.github.io">Bowen He</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://tianshudubhe.github.io/undefined/%E5%8E%9F%E7%A5%9E%E5%85%BB%E6%88%90%E7%B3%BB%E7%BB%9F%E6%8B%86%E8%A7%A3/">https://tianshudubhe.github.io/undefined/%E5%8E%9F%E7%A5%9E%E5%85%BB%E6%88%90%E7%B3%BB%E7%BB%9F%E6%8B%86%E8%A7%A3/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://tianshudubhe.github.io" target="_blank">枢枢</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="/img/%E9%9B%B7%E7%94%B5%E5%B0%86%E5%86%9B.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/undefined/hello-world/"><img class="next-cover" src="/./img/%E7%BB%BF.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Hello World</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/./img/%E7%8E%89%E5%AD%90.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Bowen He</div><div class="author-info__description">努力成为一名游戏设计师</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>少时曾许凌云志</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">记录成为游戏策划的全过程</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8E%9F%E7%A5%9E%E5%85%BB%E6%88%90%E7%B3%BB%E7%BB%9F%E6%8B%86%E8%A7%A3"><span class="toc-number">1.</span> <span class="toc-text">原神养成系统拆解</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E8%A7%92%E8%89%B2%E5%8D%87%E7%BA%A7%E5%8F%8A%E7%AA%81%E7%A0%B4%E7%B3%BB%E7%BB%9F"><span class="toc-number">1.1.</span> <span class="toc-text">1.角色升级及突破系统</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E8%A7%92%E8%89%B2%E5%A4%A9%E8%B5%8B%E7%B3%BB%E7%BB%9F"><span class="toc-number">1.2.</span> <span class="toc-text">2.角色天赋系统</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E8%A7%92%E8%89%B2%E5%91%BD%E4%B9%8B%E5%BA%A7%E7%B3%BB%E7%BB%9F"><span class="toc-number">1.3.</span> <span class="toc-text">3.角色命之座系统</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E8%A7%92%E8%89%B2%E6%AD%A6%E5%99%A8%E7%B3%BB%E7%BB%9F"><span class="toc-number">1.4.</span> <span class="toc-text">4.角色武器系统</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-%E5%9C%A3%E9%81%97%E7%89%A9%E7%B3%BB%E7%BB%9F"><span class="toc-number">1.5.</span> <span class="toc-text">5.圣遗物系统</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/undefined/%E5%8E%9F%E7%A5%9E%E5%85%BB%E6%88%90%E7%B3%BB%E7%BB%9F%E6%8B%86%E8%A7%A3/" title="原神养成系统拆解"><img src="/img/%E9%9B%B7%E7%94%B5%E5%B0%86%E5%86%9B.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="原神养成系统拆解"/></a><div class="content"><a class="title" href="/undefined/%E5%8E%9F%E7%A5%9E%E5%85%BB%E6%88%90%E7%B3%BB%E7%BB%9F%E6%8B%86%E8%A7%A3/" title="原神养成系统拆解">原神养成系统拆解</a><time datetime="2022-08-14T14:00:00.000Z" title="发表于 2022-08-15 00:00:00">2022-08-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/undefined/hello-world/" title="Hello World"><img src="/./img/%E7%BB%BF.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hello World"/></a><div class="content"><a class="title" href="/undefined/hello-world/" title="Hello World">Hello World</a><time datetime="2022-07-31T10:45:14.703Z" title="发表于 2022-07-31 20:45:14">2022-07-31</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('/img/%E9%9B%B7%E7%94%B5%E5%B0%86%E5%86%9B.jpg')"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By Bowen He</div><div class="footer_custom_text">敬请见证</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
