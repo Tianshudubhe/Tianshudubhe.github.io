@@ -17,11 +17,11 @@
     
     
     <entry>
-      <title>Hello World</title>
+      <title>Hexo常用命令及个人简历</title>
       <link href="/undefined/hello-world/"/>
       <url>/undefined/hello-world/</url>
       
-        <content type="html"><![CDATA[<p>Hexo常用命令及个人简历，<br>目前的话简历还是很烂，属于没啥可写的，努力丰富一下吧。<br>毕竟是刚刚起步，也不怕大家笑话</p><p><img src="/img/%E7%AE%80%E5%8E%86.png"></p><h2 id="hexo-new-“My-New-Post”"><a href="#hexo-new-“My-New-Post”" class="headerlink" title="hexo new “My New Post”"></a>hexo new “My New Post”</h2><h2 id="hexo-clean"><a href="#hexo-clean" class="headerlink" title="hexo clean"></a>hexo clean</h2><h2 id="hexo-g"><a href="#hexo-g" class="headerlink" title="hexo g"></a>hexo g</h2><h2 id="hexo-s"><a href="#hexo-s" class="headerlink" title="hexo s"></a>hexo s</h2><h2 id="hexo-d"><a href="#hexo-d" class="headerlink" title="hexo d"></a>hexo d</h2>]]></content>
+        <content type="html"><![CDATA[<p>这里放一些Hexo的常用命令以供自己使用，<br>简历还会不断更新的，<br>目前的话简历还是很烂，属于没啥可写的，努力丰富一下吧。<br>毕竟是刚刚起步，也不怕大家笑话</p><p><img src="/img/%E7%AE%80%E5%8E%86.png"></p><h2 id="hexo-new-“My-New-Post”"><a href="#hexo-new-“My-New-Post”" class="headerlink" title="hexo new “My New Post”"></a>hexo new “My New Post”</h2><h2 id="hexo-clean"><a href="#hexo-clean" class="headerlink" title="hexo clean"></a>hexo clean</h2><h2 id="hexo-g"><a href="#hexo-g" class="headerlink" title="hexo g"></a>hexo g</h2><h2 id="hexo-s"><a href="#hexo-s" class="headerlink" title="hexo s"></a>hexo s</h2><h2 id="hexo-d"><a href="#hexo-d" class="headerlink" title="hexo d"></a>hexo d</h2>]]></content>
       
       
       
